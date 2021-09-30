@@ -1,0 +1,48 @@
+{
+  "name": "restaurant-api",
+  "version": "1.0.0",
+  "description": "a restaurant's api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node ./src/dist/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tresormugisha/Restaurant-management-Vue"
+  },
+  "author": "AHIRWE Mugisha Tresor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tresormugisha/Restaurant-management-Vue/issues"
+  },
+  "homepage": "https://github.com/Tresormugisha/Restaurant-management-Vue#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.2",
+    "nodemon": "^1.19.3",
+    "uuid": "^7.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "@babel/runtime": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
+
